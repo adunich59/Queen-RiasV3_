@@ -3,11 +3,11 @@ require("dotenv").config(); // Load environment variables
 module.exports = {
     prefix: process.env.PREFIX || ".", // Command prefix
 
-    ownerName: process.env.OWNER_NAME || "Toxxic-Boy", // Owner name
+    ownerName: process.env.OWNER_NAME || "༒ADUNICH༒", // Owner name
 
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414", // Your WhatsApp number
+    ownerNumber: process.env.OWNER_NUMBER || "2347038821346", // Your WhatsApp number
 
-    sudo: process.env.SUDO ? process.env.SUDO.split(",") : ["2348165846414"," 2347042081220"], // People Who can use the bot even in Private mode
+    sudo: process.env.SUDO ? process.env.SUDO.split(",") : [""," "], // People Who can use the bot even in Private mode
 
     mode: process.env.MODE || "public", // Bot mode: 'public' or 'private'
 
